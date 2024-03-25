@@ -1,0 +1,17 @@
+/* mb-3 d-flex justify-content-center align-items-center */
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination-btn {
+  background-color: rgb(27, 102, 232);
+  color: wheat;
+  border-radius: 5px;
+  outline: none;
+  border-style: none;
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}

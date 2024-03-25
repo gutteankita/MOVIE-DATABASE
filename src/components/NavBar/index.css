@@ -1,0 +1,72 @@
+.main-container {
+  background-color: #032541;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo-container {
+  background-image: linear-gradient(to right, #ec8525, #ed3a12);
+  text-decoration: none;
+  border-radius: 8px;
+  margin-left: 5px;
+}
+
+.nav-search {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+.search-btn {
+  height: 30px;
+  border-radius: 5px;
+}
+
+.page-logo {
+  margin: 0;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 28px;
+  color: #032541;
+  letter-spacing: 1px;
+  line-height: 38px;
+  padding: 0 5px;
+}
+
+.nav-items-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item {
+  margin-left: 25px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff !important;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.search-input {
+  outline: none;
+  border: 1px solid #fff;
+  background-color: transparent;
+  padding: 4px 12px 7px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  min-width: 250px;
+  border-radius: 5px;
+}
